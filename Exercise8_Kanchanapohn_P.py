@@ -15,19 +15,19 @@ if Username == "Customer" and Password == "12345" :
    select = input("Please specify the desired product : ")
    if  select == "Apple":
         total1 = int(input("Please specify the number of products required : "))
-        print(total1*productprice1)
+        print("Total : ", total1*productprice1 , "THB")
         print("-------------Thank You-------------")
    elif select == "Bread":
         total2 = int(input("Please specify the number of products required : "))
-        print(total2*productprice2)
+        print("Total : ", total2*productprice2 , "THB")
         print("-------------Thank You-------------")
    elif select == "Cake":
         total3 = int(input("Please specify the number of products required : "))
-        print(total3*productprice3)
+        print("Total : ", total3*productprice3 , "THB")
         print("-------------Thank You-------------")
    elif select == "Fish":
         total4 = int(input("Please specify the number of products required : "))
-        print(total4*productprice4)
+        print("Total : ", total4*productprice4 , "THB")
         print("-------------Thank You-------------")
 else:
     print("sorry please try again ") 
